@@ -3255,3 +3255,8 @@ ol {
 		font-size: 28px;
 	}
 }
+
+
+.fa-tiktok:before{
+    content: "\e07b";
+}

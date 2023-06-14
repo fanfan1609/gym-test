@@ -10,11 +10,8 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore dolore magna aliqua endisse ultrices gravida lorem.</p>
                         <div class="fa-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa  fa-envelope-o"></i></a>
+                            <a href="https://www.tiktok.com/@f__u__workout" target="_blank"><i class="fa fa-tiktok"></i></a>
+                            <a href="https://www.instagram.com/lastdiet_mens/" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
