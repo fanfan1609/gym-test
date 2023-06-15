@@ -22,7 +22,8 @@ class Home extends MY_Controller {
 	{
 		$data = ['title' => "HOME"];
 
-		$this->render("home", $data);		
+		$this->load->view("landing", $data);
+		// $this->render("home", $data);		
 	}
 
     public function gallery()
