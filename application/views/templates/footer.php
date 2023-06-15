@@ -1,98 +1,41 @@
-<!-- Footer Section Begin -->
-<section class="footer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="fs-about">
-                        <div class="fa-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore dolore magna aliqua endisse ultrices gravida lorem.</p>
-                        <div class="fa-social">
-                            <a href="https://www.tiktok.com/@f__u__workout" target="_blank"><i class="fa fa-tiktok"></i></a>
-                            <a href="https://www.instagram.com/lastdiet_mens/" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="fs-widget">
-                        <h4>Useful links</h4>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Classes</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="fs-widget">
-                        <h4>Support</h4>
-                        <ul>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">My account</a></li>
-                            <li><a href="#">Subscribe</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="fs-widget">
-                        <h4>Tips & Guides</h4>
-                        <div class="fw-recent">
-                            <h6><a href="#">Physical fitness may help prevent depression, anxiety</a></h6>
-                            <ul>
-                                <li>3 min read</li>
-                                <li>20 Comment</li>
-                            </ul>
-                        </div>
-                        <div class="fw-recent">
-                            <h6><a href="#">Fitness: The best exercise to lose belly fat and tone up...</a></h6>
-                            <ul>
-                                <li>3 min read</li>
-                                <li>20 Comment</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+<footer id="footer" class="l-footer">
+    <div class="l-footer__inner">
+        <div class="l-footer__foot">
+            <div class="l-container">
+                <ul class="l-footer__nav">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1401"><a href="https://shine-yoshiki.com/contact2/">お問い合わせ</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639"><a href="https://shine-yoshiki.com/privacy/">プライバシーポリシー</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-882"><a href="https://shine-yoshiki.com/company/">会社概要</a></li>
+                </ul>
+                <p class="copyright">
+                    <span lang="en">©</span>
+                    SHINE（シャイン）.
+                </p>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="copyright-text">
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Footer Section End -->
-
-    <!-- Search model Begin -->
-    <div class="search-model">
-        <div class="h-100 d-flex align-items-center justify-content-center">
-            <div class="search-close-switch">+</div>
-            <form class="search-model-form">
-                <input type="text" id="search-input" placeholder="Search here.....">
-            </form>
         </div>
     </div>
-    <!-- Search model end -->
+</footer>
+<div class="p-fixBtnWrap">
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <button id="pagetop" class="c-fixBtn c-plainBtn hov-bg-main" data-onclick="pageTop" aria-label="ページトップボタン" data-has-text>
+        <i class="c-fixBtn__icon icon-chevron-up" role="presentation"></i>
+    </button>
+</div>
 
-
-
+<div id="search_modal" class="c-modal p-searchModal">
+    <div class="c-overlay" data-onclick="toggleSearch"></div>
+    <div class="p-searchModal__inner">
+        <form role="search" method="get" class="c-searchForm" action="https://shine-yoshiki.com/">
+            <input type="text" value name="s" class="c-searchForm__s s" placeholder="検索" aria-label="検索ワード">
+            <button type="submit" class="c-searchForm__submit icon-search hov-opacity u-bg-main" value="search" aria-label="検索を実行する"></button>
+        </form>
+        <button class="c-modal__close c-plainBtn" data-onclick="toggleSearch">
+            <i class="icon-batsu"></i> 閉じる </button>
+    </div>
+</div>
+</div> <!--/ #all_wrapp-->
+<div class="l-scrollObserver" aria-hidden="true"></div>
+<?php $this->load->view('templates/js') ?>
 </body>
 
 </html>

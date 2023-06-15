@@ -22,7 +22,7 @@ class Home extends MY_Controller {
 	{
 		$data = ['title' => "HOME"];
 
-		$this->render("welcome_message", $data);		
+		$this->render("home", $data);		
 	}
 
     public function gallery()
@@ -31,4 +31,11 @@ class Home extends MY_Controller {
 
         $this->render("gallery", $data);
     }
+
+	public function price()
+	{
+		$data = ['title' => "PRICE"];
+
+        $this->render("price", $data);
+	}
 }

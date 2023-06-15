@@ -54,3 +54,4 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['gallery'] = 'home/gallery';
+$route['price'] = 'home/price';
